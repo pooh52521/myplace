@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Finora - Privacy Policy</title>
+<style>
+:root{--bg:#f6f8fc;--card:#fff;--text:#172033;--muted:#64748b;--primary:#2563eb;--border:#e5e7eb}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+.hero{background:linear-gradient(135deg,#1268f3,#5b35ee);color:#fff;padding:56px 20px}.hero-inner,.container{max-width:900px;margin:auto}
+.brand{display:flex;align-items:center;gap:14px;margin-bottom:30px}.logo{width:58px;height:58px;border-radius:16px;background:#ffffff29;display:grid;place-items:center;font-weight:800;font-size:24px;border:1px solid #ffffff40}
+h1{margin:0;font-size:40px;line-height:1.2}.hero p{margin:12px 0 0;opacity:.9}.container{padding:32px 20px 60px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:28px;margin-bottom:18px;box-shadow:0 6px 24px #0f172a0a}
+h2{margin-top:0;font-size:23px;color:#172554}h3{font-size:17px;margin-bottom:6px}p{margin:8px 0 14px}ul{padding-left:22px}li{margin:6px 0}
+.notice{background:#eff6ff;border-left:4px solid var(--primary);padding:14px 16px;border-radius:8px;color:#1e3a8a}
+.warning{background:#fff7ed;border-left:4px solid #f97316;padding:14px 16px;border-radius:8px;color:#7c2d12}
+.contact{background:linear-gradient(135deg,#eff6ff,#f5f3ff)}
+table{width:100%;border-collapse:collapse;margin:14px 0}th,td{padding:11px 10px;border:1px solid var(--border);text-align:left;vertical-align:top}th{background:#f8fafc}
+footer{text-align:center;color:var(--muted);padding:10px 20px 40px;font-size:14px}
+@media(max-width:600px){.hero{padding:40px 18px}h1{font-size:32px}.container{padding:22px 14px 40px}.card{padding:21px;border-radius:14px}table{font-size:14px}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<div class="hero-inner">
+<div class="brand"><div class="logo">F</div><div><strong style="font-size:22px;">Finora</strong><br><span style="opacity:.85;">Smart Finance Assistant</span></div></div>
+<h1>Privacy Policy</h1>
+<p>Last updated: September 7, 2026</p>
+</div>
+</header>
+
+<main class="container">
+
+<section class="card">
+<h2>1. Introduction</h2>
+<p>This Privacy Policy explains how Finora ("Finora", "we", "us", or "our") accesses, processes, stores, and shares information when you use the Finora mobile application (the "App").</p>
+<p>Finora is a personal finance and life-information management application. Its core features include organizing supported SMS-based financial information, tracking expenses and income, providing financial insights, and answering questions about information available in the App.</p>
+<div class="notice"><strong>No traditional user account:</strong> Finora does not require you to create a Finora account. The primary transaction and life-information database is stored locally on your device.</div>
+</section>
+
+<section class="card">
+<h2>2. Information Finora Accesses and Processes</h2>
+
+<h3>SMS and Message Content</h3>
+<p>If you grant the required Android SMS permissions, Finora may access incoming SMS messages and process their content to provide its core SMS-based finance management functionality.</p>
+<p>Depending on the message, Finora may process information such as the message text, transaction type, amount, merchant, date, category, and supported delivery, reservation, or bill information.</p>
+<p>Finora filters out OTP and other unsupported messages from its normal financial/life-information processing flow.</p>
+
+<h3>Financial Information</h3>
+<p>Finora may process financial information derived from supported messages, such as purchase amounts, income amounts, merchants, transaction categories, and transaction dates.</p>
+
+<h3>Life-Related Information</h3>
+<p>For supported messages, Finora may process delivery, reservation, and bill information so that these items can be displayed and managed in the App.</p>
+
+<h3>AI Assistant Questions</h3>
+<p>When you use the AI assistant, Finora processes the question you submit and the minimum relevant information needed to answer it.</p>
+</section>
+
+<section class="card">
+<h2>3. What Stays on Your Device</h2>
+<p>Finora's primary transaction and life-information database is stored locally on your Android device. This includes information needed for transaction history, dashboards, insights, and supported life-information lists.</p>
+<p>Simple questions are handled locally when possible. The App's Android code queries the local database; the AI service does not receive direct access to the database and cannot directly modify it.</p>
+<p>Information that remains only on your device is not treated as data collected by Finora for Google Play Data Safety purposes merely because the App can access it locally.</p>
+</section>
+
+<section class="card">
+<h2>4. Information Sent Off Your Device</h2>
+<p>Some complex natural-language questions and certain supported financial SMS analyses may use an external AI service. When this occurs, Finora sends only the information needed for that AI request. Delivery, reservation, and bill information is handled locally and is not sent to the AI service as part of the current App implementation.</p>
+<p>The current AI service is OpenRouter. Depending on the feature, the request may contain a relevant financial SMS message or information derived from it, together with the question or classification context needed for analysis.</p>
+<p>Finora does not send the entire local database to OpenRouter and does not give OpenRouter direct access to the local Room database.</p>
+<div class="warning"><strong>Important:</strong> Because AI requests are transmitted over the Internet, information included in an AI request leaves your device. Please avoid entering unnecessary highly sensitive information into the AI assistant.</div>
+</section>
+
+<section class="card">
+<h2>5. Purposes of Processing</h2>
+<ul>
+<li><strong>App functionality:</strong> organize supported SMS information and provide finance and life-management features.</li>
+<li><strong>Analytics and insights:</strong> calculate spending, income, savings, categories, trends, and summaries from information available in the App.</li>
+<li><strong>AI functionality:</strong> answer complex natural-language questions and provide AI-powered analysis.</li>
+<li><strong>Security and reliability:</strong> prevent duplicate processing, ignore unsupported or OTP messages, and maintain reliable App operation.</li>
+</ul>
+<p>Finora does not use SMS or financial information for advertising, targeted advertising, sale of personal information, or user profiling.</p>
+</section>
+
+<section class="card">
+<h2>6. Data Sharing and Third-Party Processing</h2>
+<p>Finora does not sell your personal information.</p>
+<p>When an AI feature is used, relevant information may be transmitted to OpenRouter as a service used to provide AI processing. The information is transmitted only for the requested App functionality.</p>
+<p>OpenRouter and any underlying AI model provider may process requests according to their own terms and privacy policies. Their processing and retention practices are outside Finora's control.</p>
+<p>Finora may also disclose information if required by applicable law, valid legal process, or a lawful governmental request.</p>
+</section>
+
+<section class="card">
+<h2>7. SMS Permissions and Core Functionality</h2>
+<p>Finora may request permissions such as <code>READ_SMS</code> and <code>RECEIVE_SMS</code> because SMS processing is used for the App's core finance-management functionality.</p>
+<p>The SMS data accessed through these permissions is used only for the disclosed core functionality and is not used for advertising, marketing, or unrelated purposes.</p>
+<p>You can review or revoke Android permissions through your device settings. If the required SMS permissions are not granted, SMS-based automatic processing will not function.</p>
+</section>
+
+<section class="card">
+<h2>8. Data Retention and Deletion</h2>
+<p>Information stored locally by Finora remains on your device while it is needed by the App. You can remove locally stored App data through available in-App deletion features, Android's App data controls, or by uninstalling the App, subject to Android system behavior and backups.</p>
+<p>Finora does not maintain a traditional Finora user account. Therefore, there is no separate Finora account database that requires account deletion.</p>
+<p>Information transmitted to OpenRouter for AI processing may be subject to OpenRouter's and the relevant AI provider's processing and retention policies.</p>
+<p>If you have a privacy-related deletion request concerning information held outside your device, contact us using the address in the Contact section.</p>
+</section>
+
+<section class="card">
+<h2>9. Security</h2>
+<p>Finora uses HTTPS/TLS for network requests to external services. Local App data is stored using Android's application storage and is protected by the security mechanisms provided by the Android operating system.</p>
+<p>No method of electronic storage or Internet transmission is completely secure, so absolute security cannot be guaranteed.</p>
+</section>
+
+<section class="card">
+<h2>10. Advertising, Analytics, and Tracking</h2>
+<p>Finora does not use SMS or financial information for advertising or targeted advertising.</p>
+<p>The current App does not use Firebase Analytics, Google Analytics, or an advertising SDK for the core finance-management functionality described in this policy.</p>
+<p>If these practices change in a future version, this Privacy Policy and the applicable Google Play Data Safety disclosures will be updated before or when the changed functionality is introduced.</p>
+</section>
+
+<section class="card">
+<h2>11. Children's Privacy</h2>
+<p>Finora is not directed to children and is not intended to knowingly collect personal information from children. If you believe that a child has provided personal information through the App, please contact us so that appropriate action can be taken.</p>
+</section>
+
+<section class="card">
+<h2>12. Changes to This Privacy Policy</h2>
+<p>We may update this Privacy Policy when the App's data practices, third-party services, or applicable legal requirements change. The "Last updated" date will be changed when an update is published.</p>
+<p>Material changes will be reflected in the App and/or through the applicable Google Play disclosures when required.</p>
+</section>
+
+<section class="card">
+<h2>13. Contact Us</h2>
+<p>For privacy questions, data requests, or concerns about Finora's data practices, contact:</p>
+<p><strong>App:</strong> Finora<br>
+<strong>Privacy Contact Email:</strong> srdjandev0@gmail.com</p>
+<p class="notice">Before publishing this policy, replace the placeholder email address above with a real privacy/support email address. The same contact information should be kept consistent with your Google Play developer/store information where applicable.</p>
+</section>
+
+<section class="card">
+<h2>14. Google Play Data Safety Alignment</h2>
+<p>This section is provided to make the privacy policy explicit and easy to reconcile with the Google Play Data Safety form. The final Data Safety answers must always reflect the actual APK/AAB and all included SDKs and services.</p>
+<table>
+<tr><th>Information</th><th>How Finora handles it</th></tr>
+<tr><td>SMS / message content</td><td>Accessed from the device for the core SMS-based finance-management feature. Relevant content may be transmitted to the AI service when AI processing is required.</td></tr>
+<tr><td>Financial information</td><td>Derived from supported SMS and stored locally for finance features. Relevant information may be transmitted to the AI service when required for AI analysis.</td></tr>
+<tr><td>Other user-generated content</td><td>Questions submitted to the AI assistant may be transmitted with relevant context to answer the request.</td></tr>
+<tr><td>Advertising data</td><td>Not used by the current App.</td></tr>
+<tr><td>Analytics data</td><td>No Firebase/Google Analytics is used by the current App.</td></tr>
+<tr><td>Account information</td><td>No traditional Finora account is required.</td></tr>
+</table>
+</section>
+
+</main>
+
+<footer>© 2026 Finora. All rights reserved.</footer>
+</body>
+</html>
